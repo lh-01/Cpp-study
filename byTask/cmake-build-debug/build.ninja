@@ -49,15 +49,38 @@ cmake_ninja_workdir = E$:/byTask/cmake-build-debug/
 
 build cmake_object_order_depends_target_byTask: phony || CMakeFiles/byTask.dir
 
-build CMakeFiles/byTask.dir/main.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/main.cpp || cmake_object_order_depends_target_byTask
-  DEP_FILE = CMakeFiles\byTask.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\byTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
-
 build CMakeFiles/byTask.dir/task1.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task1.cpp || cmake_object_order_depends_target_byTask
   DEP_FILE = CMakeFiles\byTask.dir\task1.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/task2.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task2.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task2.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/task2_client.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task2_client.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task2_client.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/task2_server.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task2_server.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task2_server.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/3_16.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/3_16.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\3_16.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/byTask/include
   OBJECT_DIR = CMakeFiles\byTask.dir
   OBJECT_FILE_DIR = CMakeFiles\byTask.dir
 
@@ -69,9 +92,9 @@ build CMakeFiles/byTask.dir/task1.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug 
 #############################################
 # Link the executable byTask.exe
 
-build byTask.exe: CXX_EXECUTABLE_LINKER__byTask_Debug CMakeFiles/byTask.dir/main.cpp.obj CMakeFiles/byTask.dir/task1.cpp.obj
+build byTask.exe: CXX_EXECUTABLE_LINKER__byTask_Debug CMakeFiles/byTask.dir/task1.cpp.obj CMakeFiles/byTask.dir/task2.cpp.obj CMakeFiles/byTask.dir/task2_client.cpp.obj CMakeFiles/byTask.dir/task2_server.cpp.obj CMakeFiles/byTask.dir/3_16.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\byTask.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

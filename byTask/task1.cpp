@@ -36,11 +36,11 @@ double evaluateExpression(string expression) {
     // 扫描输入的表达式，遍历字符串的每个字符
     for (int i = 0; i < expression.length(); i++) {
         //  对每个字符进行处理
-        if (expression[i] == ' ') { // // 当前字符是空格，则继续下一次迭代，跳过后续的处理步骤      
+        if (expression[i] == ' ') { // 当前字符是空格，则继续下一次迭代，跳过后续的处理步骤
             continue;
         } else if (expression[i] == '(') {  // 当前字符是左括号 (，将其推入运算符栈中
             operators.push(expression[i]);
-        } else if (isdigit(expression[i])) { // // 当前字符是数字，将其解析为一个浮点数，并将其推入操作数栈中
+        } else if (isdigit(expression[i])) { // 当前字符是数字，将其解析为一个浮点数，并将其推入操作数栈中
             double num = 0;
             int decimal = 0;
             while (i < expression.length() && (isdigit(expression[i]) || expression[i] == '.')) {  // 获取到完整的数字    54 5.4 
@@ -105,7 +105,7 @@ double evaluateExpression(string expression) {
     return values.top();
 }
 
-int main() {
+int main01() {
     string expression;
 
     while (true) {
