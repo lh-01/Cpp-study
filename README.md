@@ -5,7 +5,7 @@
 ## 作者: 刘昊
 
 ### 运行结果截屏
-- ![task1](https://github.com/lh-01/Cpp-study/assets/81234347/4f3a98c1-3b74-4e4a-8a05-8e53aa164df5)
+ ![task1](https://github.com/lh-01/Cpp-study/assets/81234347/4f3a98c1-3b74-4e4a-8a05-8e53aa164df5)
 
 
 ### 简单说明
@@ -24,13 +24,13 @@
 
 ### 运行结果截屏
 - 服务器端
-- ![服务器](https://github.com/lh-01/Cpp-study/assets/81234347/3e6ac5f1-204d-4644-87aa-183fe5423003)
+ ![服务器](https://github.com/lh-01/Cpp-study/assets/81234347/3e6ac5f1-204d-4644-87aa-183fe5423003)
 - 客户端1
-- ![客户端1_1](https://github.com/lh-01/Cpp-study/assets/81234347/0025e8c8-6d39-464a-b7bd-043a23f5f3b2)
-- ![客户端1_2](https://github.com/lh-01/Cpp-study/assets/81234347/dd3609c1-7236-4f3d-932c-afd704e0938f)
+ ![客户端1_1](https://github.com/lh-01/Cpp-study/assets/81234347/0025e8c8-6d39-464a-b7bd-043a23f5f3b2)
+ ![客户端1_2](https://github.com/lh-01/Cpp-study/assets/81234347/dd3609c1-7236-4f3d-932c-afd704e0938f)
 - 客户端2
-- ![客户端2_1](https://github.com/lh-01/Cpp-study/assets/81234347/ddc8c8f7-00d5-49c1-8370-3b7ff51e2fba)
-- ![客户端2_2](https://github.com/lh-01/Cpp-study/assets/81234347/4fc7d061-5853-46eb-a853-75560a87f7f9)
+ ![客户端2_1](https://github.com/lh-01/Cpp-study/assets/81234347/ddc8c8f7-00d5-49c1-8370-3b7ff51e2fba)
+ ![客户端2_2](https://github.com/lh-01/Cpp-study/assets/81234347/4fc7d061-5853-46eb-a853-75560a87f7f9)
 
 ### 简单说明
  
