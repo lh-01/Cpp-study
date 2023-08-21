@@ -45,7 +45,7 @@
 ## 作者: 刘昊
 
 ### 运行结果录屏
-- 录屏链接
+- 【基于ffmpeg的音视频播放器】 https://www.bilibili.com/video/BV1ru41177dX/?share_source=copy_web&vd_source=2f94e0b62bfc0797720a23b3cfae06e8
 
 ### 简单说明
 - 在主函数中首先初始化了FFmpeg和SDL库，然后从用户输入中获取音视频文件的路径。接下来获取音视频文件的格式上下文(AVFormatContext)，并使用avformat_open_input函数打开该音视频文件。然后使用avformat_find_stream_info函数检索音视频流的信息，并查找音视频流。初始化音视频解码器，获取音视频解码器参数(AVCodecParameters)和解码器(AVCodec)，并使用avcodec_parameters_to_context函数设置解码器的参数。使用avcodec_open2函数打开音视频解码器。初始化SDL，并创建窗口、渲染器和纹理。创建音频处理线程和视频处理线程。等待音频和视频线程准备好。发送同步信号，开始播放。进入主循环，监听SDL事件，包括退出事件和按键事件。根据事件类型和按键来控制播放器的操作，暂停、重新播放、前进和后退、音量加减等。当退出事件触发或播放结束时，跳出主循环。等待音频和视频处理线程结束。释放相关资源，包括关闭和释放格式上下文、解码器上下文，销毁窗口、渲染器和纹理，退出SDL。
@@ -60,7 +60,7 @@
 ## 作者: 刘昊
 
 ### 运行结果录屏
-- 录屏链接
+- 【基于SDL的yuv视频播放器】 https://www.bilibili.com/video/BV14G411o7Wy/?share_source=copy_web&vd_source=2f94e0b62bfc0797720a23b3cfae06e8
 
 ### 简单说明
 - 代码中的initSDL函数用于初始化SDL库、创建窗口、渲染器和纹理，确保SDL环境正确设置。
@@ -76,7 +76,7 @@ playYUV函数用于播放YUV视频文件。首先打开指定的YUV视频文件�
 ## 作者: 刘昊
 
 ### 运行结果录屏
-- 录屏链接
+- 【基于SDL的mp4视频播放器】 https://www.bilibili.com/video/BV1aG411o7JP/?share_source=copy_web&vd_source=2f94e0b62bfc0797720a23b3cfae06e8
 
 ### 简单说明
  #### 方式1：task3.1.b_yuv
