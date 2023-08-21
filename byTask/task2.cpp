@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+int main02() {
     int option;
 
     cout << "请选择一个选项:\n";
