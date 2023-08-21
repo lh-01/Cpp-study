@@ -51,36 +51,85 @@ build cmake_object_order_depends_target_byTask: phony || CMakeFiles/byTask.dir
 
 build CMakeFiles/byTask.dir/task1.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task1.cpp || cmake_object_order_depends_target_byTask
   DEP_FILE = CMakeFiles\byTask.dir\task1.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/byTask/include
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
   OBJECT_DIR = CMakeFiles\byTask.dir
   OBJECT_FILE_DIR = CMakeFiles\byTask.dir
 
 build CMakeFiles/byTask.dir/task2.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task2.cpp || cmake_object_order_depends_target_byTask
   DEP_FILE = CMakeFiles\byTask.dir\task2.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/byTask/include
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
   OBJECT_DIR = CMakeFiles\byTask.dir
   OBJECT_FILE_DIR = CMakeFiles\byTask.dir
 
 build CMakeFiles/byTask.dir/task2_client.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task2_client.cpp || cmake_object_order_depends_target_byTask
   DEP_FILE = CMakeFiles\byTask.dir\task2_client.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/byTask/include
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
   OBJECT_DIR = CMakeFiles\byTask.dir
   OBJECT_FILE_DIR = CMakeFiles\byTask.dir
 
 build CMakeFiles/byTask.dir/task2_server.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task2_server.cpp || cmake_object_order_depends_target_byTask
   DEP_FILE = CMakeFiles\byTask.dir\task2_server.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/byTask/include
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
   OBJECT_DIR = CMakeFiles\byTask.dir
   OBJECT_FILE_DIR = CMakeFiles\byTask.dir
 
-build CMakeFiles/byTask.dir/3_16.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/3_16.cpp || cmake_object_order_depends_target_byTask
-  DEP_FILE = CMakeFiles\byTask.dir\3_16.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/byTask/include
+build CMakeFiles/byTask.dir/task3.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task3.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task3.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/task3.1.a.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task3.1.a.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task3.1.a.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/task3.1.b_yuv.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task3.1.b_yuv.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task3.1.b_yuv.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/task3.1.b_rgb.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/task3.1.b_rgb.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\task3.1.b_rgb.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/audio_pcm.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/audio_pcm.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\audio_pcm.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/video_audio.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/video_audio.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\video_audio.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/video_rgb.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/video_rgb.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\video_rgb.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
+  OBJECT_DIR = CMakeFiles\byTask.dir
+  OBJECT_FILE_DIR = CMakeFiles\byTask.dir
+
+build CMakeFiles/byTask.dir/video_yuv.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E$:/byTask/video_yuv.cpp || cmake_object_order_depends_target_byTask
+  DEP_FILE = CMakeFiles\byTask.dir\video_yuv.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wno-error
+  INCLUDES = -IE:/ffmpeg-6.0-full_build-shared/include -IE:/SDL2-2.28.2/x86_64-w64-mingw32/include -IE:/OpenAL/include -IE:/byTask/include
   OBJECT_DIR = CMakeFiles\byTask.dir
   OBJECT_FILE_DIR = CMakeFiles\byTask.dir
 
@@ -92,9 +141,11 @@ build CMakeFiles/byTask.dir/3_16.cpp.obj: CXX_COMPILER__byTask_unscanned_Debug E
 #############################################
 # Link the executable byTask.exe
 
-build byTask.exe: CXX_EXECUTABLE_LINKER__byTask_Debug CMakeFiles/byTask.dir/task1.cpp.obj CMakeFiles/byTask.dir/task2.cpp.obj CMakeFiles/byTask.dir/task2_client.cpp.obj CMakeFiles/byTask.dir/task2_server.cpp.obj CMakeFiles/byTask.dir/3_16.cpp.obj
+build byTask.exe: CXX_EXECUTABLE_LINKER__byTask_Debug CMakeFiles/byTask.dir/task1.cpp.obj CMakeFiles/byTask.dir/task2.cpp.obj CMakeFiles/byTask.dir/task2_client.cpp.obj CMakeFiles/byTask.dir/task2_server.cpp.obj CMakeFiles/byTask.dir/task3.cpp.obj CMakeFiles/byTask.dir/task3.1.a.cpp.obj CMakeFiles/byTask.dir/task3.1.b_yuv.cpp.obj CMakeFiles/byTask.dir/task3.1.b_rgb.cpp.obj CMakeFiles/byTask.dir/audio_pcm.cpp.obj CMakeFiles/byTask.dir/video_audio.cpp.obj CMakeFiles/byTask.dir/video_rgb.cpp.obj CMakeFiles/byTask.dir/video_yuv.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lmingw32  -lSDL2main  -lSDL2  -lavcodec  -lavfilter  -lavformat  -lavutil  -lswresample  -lswscale  -lOpenAL32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LE:/ffmpeg-6.0-full_build-shared/lib   -LE:/SDL2-2.28.2/x86_64-w64-mingw32/lib   -LE:/OpenAL/libs/Win64
   OBJECT_DIR = CMakeFiles\byTask.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
